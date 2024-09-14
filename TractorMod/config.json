@@ -1,0 +1,111 @@
+{
+  "Distance": 2,
+  "TractorSpeed": -1,
+  "SoundEffects": "Tractor",
+  "SoundEffectsVolume": 75,
+  "MagneticRadius": 405,
+  "BuildPrice": 2500,
+  "RequireBuildMaterials": true,
+  "BuildMaterials": {
+    "(O)335": 20,
+    "(O)337": 5,
+    "(O)787": 5
+  },
+  "CanSummonWithoutGarage": false,
+  "HighlightRadius": false,
+  "StandardAttachments": {
+    "Axe": {
+      "ClearFruitTreeSeeds": false,
+      "ClearFruitTreeSaplings": false,
+      "CutGrownFruitTrees": false,
+      "CutTreeStumps": true,
+      "ClearTreeSeeds": false,
+      "ClearTreeSaplings": true,
+      "CutGrownTrees": false,
+      "CutTappedTrees": false,
+      "CutBushes": true,
+      "CutGiantCrops": false,
+      "ClearLiveCrops": true,
+      "ClearDeadCrops": true,
+      "ClearDebris": true
+    },
+    "Fertilizer": {
+      "Enable": true
+    },
+    "GrassStarter": {
+      "Enable": true
+    },
+    "Hoe": {
+      "TillDirt": true,
+      "ClearWeeds": true,
+      "DigArtifactSpots": true,
+      "DigSeedSpots": true,
+      "HarvestGinger": true
+    },
+    "MilkPail": {
+      "Enable": false
+    },
+    "MeleeBlunt": {
+      "AttackMonsters": false,
+      "BreakMineContainers": true
+    },
+    "MeleeDagger": {
+      "AttackMonsters": false,
+      "ClearDeadCrops": true,
+      "BreakMineContainers": true,
+      "HarvestGrass": false
+    },
+    "MeleeSword": {
+      "AttackMonsters": false,
+      "ClearDeadCrops": true,
+      "BreakMineContainers": true,
+      "HarvestGrass": false
+    },
+    "PickAxe": {
+      "ClearDebris": true,
+      "ClearDeadCrops": true,
+      "ClearDirt": true,
+      "ClearFlooring": true,
+      "ClearBouldersAndMeteorites": false,
+      "ClearObjects": true,
+      "BreakMineContainers": true,
+      "ClearWeeds": true,
+      "HarvestMineSpawns": true
+    },
+    "Scythe": {
+      "HarvestCrops": true,
+      "HarvestFlowers": true,
+      "HarvestForage": true,
+      "HarvestFruitTrees": true,
+      "HarvestTreeMoss": true,
+      "HarvestTreeSeeds": true,
+      "HarvestMachines": false,
+      "HarvestNonBlueGrass": true,
+      "HarvestBlueGrass": true,
+      "ClearDeadCrops": true,
+      "ClearWeeds": true
+    },
+    "Seeds": {
+      "Enable": true
+    },
+    "Shears": {
+      "Enable": false
+    },
+    "Slingshot": {
+      "Enable": false
+    },
+    "WateringCan": {
+      "Enable": true
+    },
+    "SeedBagMod": {
+      "Enable": true
+    }
+  },
+  "Controls": {
+    "SummonTractor": "None",
+    "DismissTractor": "None",
+    "HoldToActivate": "None"
+  },
+  "CustomAttachments": [],
+  "InvincibleOnTractor": true
+}

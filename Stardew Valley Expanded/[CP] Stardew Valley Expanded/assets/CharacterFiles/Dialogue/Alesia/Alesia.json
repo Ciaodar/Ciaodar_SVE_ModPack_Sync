@@ -1,0 +1,19 @@
+﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Alesia",
+        "Entries": 
+        {
+
+"Mon": "{{i18n:Alesia.CharacterDialogue.001}}",
+"Tue": "{{i18n:Alesia.CharacterDialogue.002}}",
+"Wed": "{{i18n:Alesia.CharacterDialogue.003}}",
+"Fri": "{{i18n:Alesia.CharacterDialogue.004}}",
+"Sat": "{{i18n:Alesia.CharacterDialogue.005}}",
+"DesertFestival_Alesia": "{{i18n:DesertFestival_Alesia}}",
+
+},
+      },
+    ]
+}

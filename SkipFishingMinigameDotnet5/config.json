@@ -1,0 +1,8 @@
+{
+  "IsActionButtonToggleAutoHook": true,
+  "IsAutoHook": false,
+  "IsRemoveAutoHook": false,
+  "IsIgnoreTreasureChests": false,
+  "MinimumCatchesRequired": 0,
+  "PerfectCatchChance": 100
+}

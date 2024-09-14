@@ -1,0 +1,11 @@
+{
+  "Name": "Italian Countryside Buildings",
+  "Author": "Latteholn",
+  "Version": "1.0.0",
+  "Description": "Replaces the vanilla farm buildings with seasonal Italian-style countryside structures..",
+  "UniqueID": "Latteholn.ItalianCountrysideBuildings",
+  "UpdateKeys": ["Nexus:27579"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
