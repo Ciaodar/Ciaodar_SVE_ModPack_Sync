@@ -2,7 +2,7 @@
   "DrawFishShadows": true,
   "MaximumFish": 1060,
   "FishDensity": 0.4,
-  "TrashOutside": false,
+  "TrashOutside": true,
   "TrashFarm": false,
   "DisableTrashLvl10": true,
   "DrawItemShadows": true,
