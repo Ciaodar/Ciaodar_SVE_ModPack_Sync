@@ -3,5 +3,5 @@ cd "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods"
 git fetch
 git pull
 
-echo Syncronisation Finished
+echo Syncronization Finished
 
