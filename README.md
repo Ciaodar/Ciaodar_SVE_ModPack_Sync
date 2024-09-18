@@ -8,3 +8,9 @@ Open steam settings and paste this right before the SMAPI start code:
 >  "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\sync.bat" &&
 
 Then start game. all the syncronizations are made with main.
+
+---
+I don't have git installed:
+-
+what are you doing here? go get installed from [the link](https://git-scm.com/download/win)
+
