@@ -4,8 +4,8 @@ Delete your "Mods" folder.
 
 rename "Ciaodar_SVE_ModPack_Sync" to "Mods"
 
-Open steam settings and paste this right before the SMAPI start code:
->  "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\sync.bat" &&
+Open steam settings and paste this:
+>  "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\sync.bat" && "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\StardewModdingAPI.exe" %command%
 
 Then you can start the game. all the synchronizations are made with master.
 
