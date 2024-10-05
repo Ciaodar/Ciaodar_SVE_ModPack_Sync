@@ -1,5 +1,5 @@
 {
-  "IsActionButtonToggleAutoHook": true,
+  "IsActionButtonToggleAutoHook": false,
   "IsAutoHook": false,
   "IsRemoveAutoHook": false,
   "IsIgnoreTreasureChests": false,
