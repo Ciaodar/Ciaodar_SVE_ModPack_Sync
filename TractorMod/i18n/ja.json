@@ -64,14 +64,21 @@
     /****
     ** Audio
     ****/
-    "config.tractor-sounds.name": "効果音",
+    "config.tractor-sounds.name": "エンジン音",
     "config.tractor-sounds.tooltip": "トラクター乗車中に再生する効果音。セーブをリロードするまで変更が完全に反映されない場合があります。標準は{{defaultValue}}。",
     "config.tractor-sounds.value.None": "効果音なし",
     "config.tractor-sounds.value.Horse": "馬",
     "config.tractor-sounds.value.Tractor": "トラクター",
 
-    "config.tractor-volume.name": "効果音の音量",
+    "config.tractor-volume.name": "エンジン音の音量",
     "config.tractor-volume.tooltip": "トラクターの効果音の音量レベル。標準は{{defaultValue}}%。",
+
+    // TODO
+    "config.tool-use-sounds-limit.name": "Tool Use Sounds",
+    "config.tool-use-sounds-limit.tooltip": "When applying a tool to many tiles around the tractor, which tool sounds should be played. The default option is '{{defaultOption}}'. Note that '{{unlimitedOption}}' may cause errors with larger ranges.",
+    "config.tool-use-sounds-limit.value.Default": "default",
+    "config.tool-use-sounds-limit.value.OncePerTick": "first tile applied",
+    "config.tool-use-sounds-limit.value.Unlimited": "play every sound (not recommended)",
 
 
     /****
@@ -239,5 +246,13 @@
     "config.slingshot.tooltip": "カーソルに向かってパチンコを発射する。これはトラクターの速度で攻撃するため弾薬の消費に注意。",
 
     "config.custom-tool-names.name": "カスタムツールの名前",
-    "config.custom-tool-names.tooltip": "トラクターに乗っているときに有効になるアイテムやどうぐ。どうぐは周囲のタイルで使用され、アイテムは下に置かれる。すでにサポートされているもの(オノなど)を指定すると、その使用に関するすべての制限が上書きされます。翻訳された名称ではなく正確な内部名(英名)を指定する必要があります。例えばメガボムなら「Mega Bomb」とします。複数の値はカンマで区切ってください。"
+    "config.custom-tool-names.tooltip": "トラクターに乗っているときに有効になるアイテムやどうぐ。どうぐは周囲のタイルで使用され、アイテムは下に置かれる。すでにサポートされているもの(オノなど)を指定すると、その使用に関するすべての制限が上書きされます。翻訳された名称ではなく正確な内部名(英名)を指定する必要があります。例えばメガボムなら「Mega Bomb」とします。複数の値はカンマで区切ってください。",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.summon-tractor.name": "Tractor Mod",
+    "icon.summon-tractor.desc": "Summon Tractor"
 }

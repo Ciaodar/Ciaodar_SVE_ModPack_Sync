@@ -4,7 +4,7 @@
     *********/
     // language info
     "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
-    "generic.line-wrap-on": "",     // characters after which we can line-wrap text if needed, even if there's no space
+    "generic.line-wrap-on": "", // characters after which we can line-wrap text if needed, even if there's no space
 
     // date names
     "generic.now": "Сейчас",
@@ -61,6 +61,11 @@
     "friendship-status.divorced": "Разведены",
     "friendship-status.kicked-out": "Выгнан",
 
+    // custom content (shows which mod added an item, NPC, etc)
+    // TODO
+    "added-by-mod": "Added by mod",
+    "added-by-mod.summary": "{{modName}}",
+
 
     /*********
     ** Data translations
@@ -113,6 +118,10 @@
     "location.forest.island-tip": "лесная река (южная часть большого острова)",
     "location.forest.lake": "лесное озеро",
     "location.forest.river": "лесная река",
+    "location.HarveyRoom": "Harvey's Room", // TODO
+    "location.LeoTreeHouse": "Treehouse", // TODO
+    "location.SandyHouse": "Oasis", // TODO
+    "location.SebastianRoom": "Sebastian's Room", // TODO
     "location.submarine": "ночной Рынок на подводной лодке",
     "location.town.northmost-bridge": "город (самый северный мост)",
     "location.undergroundMine": "шахты",
@@ -189,6 +198,7 @@
     // labels
     "building.animals": "Животные",
     "building.construction": "Строительство",
+    "building.construction-costs": "Construction costs", // TODO
     "building.feed-trough": "Кормушка",
     "building.horse": "Лошадь",
     "building.horse-location": "Местоположение лошади",
@@ -300,6 +310,8 @@
     "crop.summary.drops-X-to-Y": "Сбор от {{min}} до {{max}} ({{percent}}% шанс на дополнительный сбор)",
     "crop.summary.harvest-once": "урожай через {{daysToFirstHarvest}} дн.",
     "crop.summary.harvest-multi": "урожай через {{daysToFirstHarvest}} дн., затем каждые {{daysToNextHarvests}} дн.",
+    "crop.summary.farming-xp": "gives +{{amount}} farming XP per harvest", // TODO
+    "crop.summary.foraging-xp": "gives +{{amount}} foraging XP per harvest", // TODO
     "crop.summary.seasons": "сезон роста - {{seasons}}",
     "crop.summary.sells-for": "продаётся за {{price}}",
     "crop.harvest.too-late": "слишком поздно в этом сезоне для следующего сбора (урожай {{date}})",
@@ -309,7 +321,6 @@
     ** Item > generic lookups
     *********/
     // labels
-    "item.custom-item": "Пользовательский предмет",
     "item.contents": "Содержит",
     "item.loves-this": "Любят",
     "item.likes-this": "Нравится",
@@ -328,7 +339,6 @@
     "item.produces-dye": "Производит краситель",
 
     // values
-    "item.custom-item.summary": "добавлен модом {{modName}}",
     "item.contents.placed": "содержит {{name}}",
     "item.contents.ready": "{{name}} готов",
     "item.contents.partial": "{{name}} через {{time}}",
@@ -336,6 +346,7 @@
     "item.undiscovered-gift-taste-appended": ", и {{count}} неизвестных жителей",
     "item.needed-for.community-center": "Общественный центр ({{bundles}})",
     "item.needed-for.full-shipment": "Достижение 'Мастер-груз' (Отгрузите 1 шт.)",
+    "item.needed-for.monoculture": "monoculture achievement (ship {{count}} more)", // TODO
     "item.needed-for.polyculture": "Достижение 'Севооборот' (Отгрузите {{count}} шт. или больше)",
     "item.needed-for.full-collection": "Достижение 'Полная коллекция' (Пожертвуйте музею)",
     "item.needed-for.gourmet-chef": "Достижение 'Шеф-повар' (приготовьте рецепт: {{recipes}})",
@@ -396,6 +407,7 @@
     // values
     "item.fish-spawn-rules.min-fishing-level": "минимальный уровень рыбалки: {{level}}",
     "item.fish-spawn-rules.not-caught-yet": "пока не пойман (может быть пойман только один раз)",
+    "item.fish-spawn-rules.extended-family-quest-active": "\"Extended Family\" quest active", // TODO
     "item.fish-spawn-rules.locations": "местонахождение: {{locations}}",
     "item.fish-spawn-rules.locations-by-season.label": "местонахождение:",
     "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
@@ -488,6 +500,7 @@
     "npc.neutral-gifts": "Равнодушен к подаркам:",
     "npc.dislikes-gifts": "Не любит подарки",
     "npc.hates-gifts": "Ненавидит подарки",
+    "npc.schedule": "Today's schedule", // TODO
 
     // values
     "npc.can-romance.married": "Вы женаты! <", // < turns into a heart
@@ -497,6 +510,9 @@
     "npc.friendship.need-points": "след. через {{count}}",
     "npc.undiscovered-gift-taste": "{{count}} нераскрытых предметов",
     "npc.unowned-gift-taste": "{{count}} бесхозных предметов",
+    "npc.schedule.current-position": "Currently at {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.no-entries": "No schedule loaded.", // TODO
+    "npc.schedule.entry": "{{time}}: walk to {{locationName}} ({{x}}, {{y}}).", // TODO
 
 
     /*********
@@ -724,6 +740,8 @@
     "config.tile-lookups.desc": "Включать ли плитки карты в качестве целей поиска.",
     "config.data-mining-fields.name": "Показывать поля для добычи данных",
     "config.data-mining-fields.desc": "Показывать ли необработанные данные, полезные для специалистов по добыче данных (в виде отдельных полей внизу результатов поиска). Это продвинутая функция, не предназначенная для большинства игроков.",
+    "config.show-invalid-recipes.name": "Show invalid recipes", // TODO
+    "config.show-invalid-recipes.desc": "Whether to show recipes which require or produce broken items.", // TODO
     "config.target-redirection.name": "Перенаправление цели",
     "config.target-redirection.desc": "В некоторых случаях игра порождает временную сущность для представления другой сущности. Например, Эбигейл в шахтах на самом деле временный NPC с именем 'AbigailMine', поэтому при поиске ее там не будет показана настоящая информация об Эбигейл. При включении этой опции функция Lookup Anything будет искать оригинальную Эбигейл.",
     "config.scroll-amount.name": "Количество прокруток",
@@ -746,5 +764,13 @@
     "config.page-down.name": "Страница вниз",
     "config.page-down.desc": "Клавиши, которые прокручивают длинное содержимое вниз на целую страницу.",
     "config.toggle-debug.name": "Toggle debug", // TODO
-    "config.toggle-debug.desc": "Клавиши, переключающие отображение отладочной информации."
+    "config.toggle-debug.desc": "Клавиши, переключающие отображение отладочной информации.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.toggle-search.name": "Lookup Anything",
+    "icon.toggle-search.desc": "Toggle Lookup Anything Search"
 }

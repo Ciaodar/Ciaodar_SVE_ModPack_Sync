@@ -64,14 +64,20 @@
     /****
     ** Audio options
     ****/
-    "config.tractor-sounds.name": "Sound Effects",
+    "config.tractor-sounds.name": "Engine Sounds",
     "config.tractor-sounds.tooltip": "Which sound effects to play while riding the tractor. Changes may not fully take effect until you reload the save. Default {{defaultValue}}.",
     "config.tractor-sounds.value.None": "no sounds",
     "config.tractor-sounds.value.Horse": "horse sounds",
     "config.tractor-sounds.value.Tractor": "tractor sounds",
 
-    "config.tractor-volume.name": "Sound Effects Volume",
+    "config.tractor-volume.name": "Engine Sounds Volume",
     "config.tractor-volume.tooltip": "The volume level for the tractor sound effects. Default {{defaultValue}}%.",
+
+    "config.tool-use-sounds-limit.name": "Tool Use Sounds",
+    "config.tool-use-sounds-limit.tooltip": "When applying a tool to many tiles around the tractor, which tool sounds should be played. The default option is '{{defaultOption}}'. Note that '{{unlimitedOption}}' may cause errors with larger ranges.",
+    "config.tool-use-sounds-limit.value.Default": "default",
+    "config.tool-use-sounds-limit.value.OncePerTick": "first tile applied",
+    "config.tool-use-sounds-limit.value.Unlimited": "play every sound (not recommended)",
 
 
     /****
@@ -239,5 +245,12 @@
     "config.slingshot.tooltip": "Whether to fire the slingshot towards the cursor. (This is massively overpowered and will consume ammo voraciously due to the tractor tool speed.)",
 
     "config.custom-tool-names.name": "Custom Tool Names",
-    "config.custom-tool-names.tooltip": "The custom items/tools to enable while riding the tractor. Tools will be used on each surrounding tile, while items will be put down. If you specify something that's already supported (like the axe), this overrides all limitations on its use. You must specify the exact internal name (not the translated display name), like 'Axe' or 'Mega Bomb'. Separate multiple values with commas."
+    "config.custom-tool-names.tooltip": "The custom items/tools to enable while riding the tractor. Tools will be used on each surrounding tile, while items will be put down. If you specify something that's already supported (like the axe), this overrides all limitations on its use. You must specify the exact internal name (not the translated display name), like 'Axe' or 'Mega Bomb'. Separate multiple values with commas.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    "icon.summon-tractor.name": "Tractor Mod",
+    "icon.summon-tractor.desc": "Summon Tractor"
 }

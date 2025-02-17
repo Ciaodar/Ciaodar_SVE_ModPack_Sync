@@ -66,15 +66,22 @@
     /****
     ** Audio
     ****/
-    "config.tractor-sounds.name": "Efeitos Sonoros",
+    "config.tractor-sounds.name": "Sons do Motor",
     "config.tractor-sounds.tooltip": "Quais efeitos sonoros reproduzir ao andar de trator. As mudanças podem não ter efeito total até você recarregar o salvamento. Padrão {{defaultValue}}.",
     "config.tractor-sounds.value.None": "sem sons",
     "config.tractor-sounds.value.Horse": "sons de cavalo",
     "config.tractor-sounds.value.Tractor": "sons de trator",
 
     // TODO
-    "config.tractor-volume.name": "Sound Effects Volume",
+    "config.tractor-volume.name": "Engine Sounds Volume",
     "config.tractor-volume.tooltip": "The volume level for the tractor sound effects. Default {{defaultValue}}%.",
+
+    // TODO
+    "config.tool-use-sounds-limit.name": "Tool Use Sounds",
+    "config.tool-use-sounds-limit.tooltip": "When applying a tool to many tiles around the tractor, which tool sounds should be played. The default option is '{{defaultOption}}'. Note that '{{unlimitedOption}}' may cause errors with larger ranges.",
+    "config.tool-use-sounds-limit.value.Default": "default",
+    "config.tool-use-sounds-limit.value.OncePerTick": "first tile applied",
+    "config.tool-use-sounds-limit.value.Unlimited": "play every sound (not recommended)",
 
 
     /****
@@ -245,5 +252,13 @@
     "config.slingshot.tooltip": "Se deve disparar o estilingue em direção ao cursor. (Isso é extremamente poderoso e consumirá munição vorazmente devido à velocidade da ferramenta do trator.)",
 
     "config.custom-tool-names.name": "Nomes Personalizados de Ferramentas",
-    "config.custom-tool-names.tooltip": "Os itens/ferramentas personalizados para habilitar enquanto estiver pilotando o trator. As ferramentas serão usadas em cada bloco ao redor, enquanto os itens serão colocados. Se você especificar algo que já é suportado (como o machado), isso substitui todas as limitações de seu uso. Você deve especificar o nome interno exato (não o nome de exibição traduzido), como 'Axe' ou 'Mega Bomb'. Separe vários valores com vírgulas."
+    "config.custom-tool-names.tooltip": "Os itens/ferramentas personalizados para habilitar enquanto estiver pilotando o trator. As ferramentas serão usadas em cada bloco ao redor, enquanto os itens serão colocados. Se você especificar algo que já é suportado (como o machado), isso substitui todas as limitações de seu uso. Você deve especificar o nome interno exato (não o nome de exibição traduzido), como 'Axe' ou 'Mega Bomb'. Separe vários valores com vírgulas.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.summon-tractor.name": "Tractor Mod",
+    "icon.summon-tractor.desc": "Summon Tractor"
 }

@@ -66,15 +66,22 @@
     /****
     ** Audio
     ****/
-    "config.tractor-sounds.name": "Звукові ефекти",
+    "config.tractor-sounds.name": "Звуки двигуна",
     "config.tractor-sounds.tooltip": "Які звукові ефекти відтворювати під час їзди на тракторі. Зміни можуть не набути чинності до перезавантаження збереженої гри. За замовчуванням {{defaultValue}}.",
     "config.tractor-sounds.value.None": "без звуків",
     "config.tractor-sounds.value.Horse": "звуки коня",
     "config.tractor-sounds.value.Tractor": "звуки трактора",
 
     // TODO
-    "config.tractor-volume.name": "Sound Effects Volume",
+    "config.tractor-volume.name": "Engine Sounds Volume",
     "config.tractor-volume.tooltip": "The volume level for the tractor sound effects. Default {{defaultValue}}%.",
+
+    // TODO
+    "config.tool-use-sounds-limit.name": "Tool Use Sounds",
+    "config.tool-use-sounds-limit.tooltip": "When applying a tool to many tiles around the tractor, which tool sounds should be played. The default option is '{{defaultOption}}'. Note that '{{unlimitedOption}}' may cause errors with larger ranges.",
+    "config.tool-use-sounds-limit.value.Default": "default",
+    "config.tool-use-sounds-limit.value.OncePerTick": "first tile applied",
+    "config.tool-use-sounds-limit.value.Unlimited": "play every sound (not recommended)",
 
 
     /****
@@ -246,5 +253,13 @@
     "config.slingshot.tooltip": "Стрілянина з рогатки за допомогою курсору. (Це дуже сильно навантажує та споживає купу боєприпасів через швидкість трактора.)",
 
     "config.custom-tool-names.name": "Користувацькі назви предметів",
-    "config.custom-tool-names.tooltip": "Користувацькі предмети/інструменти, які можна вмикати під час їзди на тракторі. Інструменти будуть використані на кожній навколишній клітині, а предмети будуть відкладені. Якщо ви вкажете предмет, що вже підтримується (наприклад, сокира), це зніме всі обмеження щодо його використання. Ви повинні вказати точну ігрову назву (не перекладену назву), наприклад «Axe» або «Mega Bomb». Розділіть кілька значень комами."
+    "config.custom-tool-names.tooltip": "Користувацькі предмети/інструменти, які можна вмикати під час їзди на тракторі. Інструменти будуть використані на кожній навколишній клітині, а предмети будуть відкладені. Якщо ви вкажете предмет, що вже підтримується (наприклад, сокира), це зніме всі обмеження щодо його використання. Ви повинні вказати точну ігрову назву (не перекладену назву), наприклад «Axe» або «Mega Bomb». Розділіть кілька значень комами.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.summon-tractor.name": "Tractor Mod",
+    "icon.summon-tractor.desc": "Summon Tractor"
 }

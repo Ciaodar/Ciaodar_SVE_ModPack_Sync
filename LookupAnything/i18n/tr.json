@@ -4,7 +4,7 @@
     *********/
     // language info
     "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
-    "generic.line-wrap-on": "",     // characters after which we can line-wrap text if needed, even if there's no space
+    "generic.line-wrap-on": "", // characters after which we can line-wrap text if needed, even if there's no space
 
     // date names
     "generic.now": "şimdi",
@@ -51,7 +51,7 @@
     "quality.iridium": "iridyum",
 
     // item names shown in recipes
-    "item.wild-seeds": "Wild Seeds (Any)", // TODO
+    "item.wild-seeds": "Yabani Tohumlar (Herhangi biri)",
 
     // NPC friendship
     "friendship-status.friendly": "Arkadaş",
@@ -60,6 +60,10 @@
     "friendship-status.married": "Evli",
     "friendship-status.divorced": "Boşanmış",
     "friendship-status.kicked-out": "Terk edilmiş",
+
+    // custom content (shows which mod added an item, NPC, etc)
+    "added-by-mod": "Mod tarafından eklendi",
+    "added-by-mod.summary": "{{modName}}",
 
 
     /*********
@@ -113,6 +117,10 @@
     "location.forest.island-tip": "Orman Nehri (büyük adanın güney ucu)",
     "location.forest.lake": "Orman Göleti",
     "location.forest.river": "Orman Nehri",
+    "location.HarveyRoom": "Harvey's Room", // TODO
+    "location.LeoTreeHouse": "Treehouse", // TODO
+    "location.SandyHouse": "Oasis", // TODO
+    "location.SebastianRoom": "Sebastian's Room", // TODO
     "location.submarine": "Akşam Pazarı Denizaltısı",
     "location.town.northmost-bridge": "Kasaba (en kuzeydeki köprü)",
     "location.undergroundMine": "Maden",
@@ -138,9 +146,9 @@
     *********/
     "condition-or-context-tag.negate": "{{value}} değil",
 
-    "condition.day-of-month": "on specific days ({{days}})", // TODO
-    "condition.day-of-month.even": "even days", // TODO
-    "condition.day-of-month.odd": "odd days", // TODO
+    "condition.day-of-month": "ayın spesifik günlerde ({{days}})",
+    "condition.day-of-month.even": "çift sayılı günlerde",
+    "condition.day-of-month.odd": "tek sayılı günlerde",
 
     "condition.item-type.input": "girilen nesne",
     "condition.item-type.target": "hedef nesne",
@@ -189,6 +197,7 @@
     // labels
     "building.animals": "Hayvanlar",
     "building.construction": "İnşaat",
+    "building.construction-costs": "İnşaa maliyeti",
     "building.feed-trough": "Yemlik",
     "building.horse": "At",
     "building.horse-location": "At konumu",
@@ -245,7 +254,7 @@
     ** Bush lookups
     *********/
     // labels
-    "bush.name.berry": "Yemiş Çalısı",
+    "bush.name.berry": "Böğürtlen Çalısı",
     "bush.name.plain": "Ova Çalısı",
     "bush.name.tea": "Çay Çalısı",
     "bush.description.berry": "Ahududu ve böğürtlen yetiştiren bir çalı.",
@@ -300,6 +309,8 @@
     "crop.summary.drops-X-to-Y": "{{min}}'den {{max}} taneye kadar düşer ({{percent}}% ekstra mahsul şansı)",
     "crop.summary.harvest-once": "{{daysToFirstHarvest}} gün sonra hasat edilir",
     "crop.summary.harvest-multi": "{{daysToFirstHarvest}} günün ardından her {{daysToNextHarvests}} günde bir hasat edilir",
+    "crop.summary.farming-xp": "gives +{{amount}} farming XP per harvest", // TODO
+    "crop.summary.foraging-xp": "gives +{{amount}} foraging XP per harvest", // TODO
     "crop.summary.seasons": "{{seasons}} mevsiminde büyür",
     "crop.summary.sells-for": "{{price}} satılır",
     "crop.harvest.too-late": "sonraki hasat için sezon çok geç (muhtemelen {{date}})",
@@ -309,7 +320,6 @@
     ** Item > generic lookups
     *********/
     // labels
-    "item.custom-item": "Özel eşya",
     "item.contents": "İçindekiler",
     "item.loves-this": "Bunu seviyor",
     "item.likes-this": "Bunu beğeniyor",
@@ -328,7 +338,6 @@
     "item.produces-dye": "Boya üretir",
 
     // values
-    "item.custom-item.summary": "{{modName}} tarafından eklendi",
     "item.contents.placed": "{{name}} yerleştirildi",
     "item.contents.ready": "{{name}} hazır",
     "item.contents.partial": "{{name}} içinde {{time}}",
@@ -336,7 +345,8 @@
     "item.undiscovered-gift-taste-appended": ", ve {{count}} gizli köylüler",
     "item.needed-for.community-center": "halkevi ({{bundles}})",
     "item.needed-for.full-shipment": "tam sevkiyat başarısı (herşeyden bir tane gönder)",
-    "item.needed-for.polyculture": "polikültür başarısı (her ekinden {{count}}'den fazla gönder)",
+    "item.needed-for.monoculture": "tekli tarım başarısı (bir ekinden {{count}}'den fazla gönder)",
+    "item.needed-for.polyculture": "çoklu tarım başarısı (her ekinden {{count}}'den fazla gönder)",
     "item.needed-for.full-collection": "tam koleksiyon başarısı (müze koleksiyonunu tamamla)",
     "item.needed-for.gourmet-chef": "gurme şef başarısı (pişir {{recipes}})",
     "item.needed-for.craft-master": "zanaat ustası başarısı (yap {{recipes}})",
@@ -396,6 +406,7 @@
     // values
     "item.fish-spawn-rules.min-fishing-level": "minimum balıkçılık seviyesi: {{level}}",
     "item.fish-spawn-rules.not-caught-yet": "henüz yakalanmamış (sadece bir defa yakalanabilir)",
+    "item.fish-spawn-rules.extended-family-quest-active": "\"Geniş aile\" görevi aktif",
     "item.fish-spawn-rules.locations": "bölgeler: {{locations}}",
     "item.fish-spawn-rules.locations-by-season.label": "bölgeler:",
     "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
@@ -488,6 +499,7 @@
     "npc.neutral-gifts": "Nötr hediyeler",
     "npc.dislikes-gifts": "Beğenilmeyen hediyeler",
     "npc.hates-gifts": "Nefret edilen hediyeler",
+    "npc.schedule": "Today's schedule", // TODO
 
     // values
     "npc.can-romance.married": "Evlisin! <", // < turns into a heart
@@ -497,6 +509,9 @@
     "npc.friendship.need-points": "{{count}} puana gelişir",
     "npc.undiscovered-gift-taste": "{{count}} gizli nesneler",
     "npc.unowned-gift-taste": "{{count}} sahipsiz öğe",
+    "npc.schedule.current-position": "Currently at {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.no-entries": "No schedule loaded.", // TODO
+    "npc.schedule.entry": "{{time}}: walk to {{locationName}} ({{x}}, {{y}}).", // TODO
 
 
     /*********
@@ -724,6 +739,8 @@
     "config.tile-lookups.desc": "Harita karolarının arama hedefleri olarak dahil edilip edilmeyeceği.",
     "config.data-mining-fields.name": "Veri madenciliği alanlarını göster",
     "config.data-mining-fields.desc": "Veri madencileri için yararlı olan ham verilerin gösterilip gösterilmeyeceği (arama sonuçlarının altında ayrı alanlar olarak). Bu, çoğu oyuncu için tasarlanmayan gelişmiş bir özelliktir.",
+    "config.show-invalid-recipes.name": "Geçersizleri göster",
+    "config.show-invalid-recipes.desc": "Geçersiz bir şey üretecek veya geerektirecek tariflerin gösterilip gösterilmeyeceği.",
     "config.target-redirection.name": "Hedef yönlendirme",
     "config.target-redirection.desc": "Bazı durumlarda oyun, bir başkasını temsil etmek için geçici bir varlık yaratır. Örneğin, madendeki Abigail aslında 'AbigailMine' adında geçici bir NPC'dir, bu yüzden ona orada bakmak Abigail'in gerçek bilgilerini göstermez. Bu seçenek etkinleştirildiğinde, Lookup Anything, bunun yerine orijinal Abigail'i arayacaktır.",
     "config.scroll-amount.name": "Kaydırma miktarı",
@@ -746,5 +763,13 @@
     "config.page-down.name": "Sayfayı aşağı kaydır",
     "config.page-down.desc": "Uzun içeriği tam sayfa aşağı kaydıran tuşlar.",
     "config.toggle-debug.name": "Hata ayıklamayı aç/kapat",
-    "config.toggle-debug.desc": "Hata ayıklama bilgilerinin görüntülenmesini değiştiren tuşlar."
+    "config.toggle-debug.desc": "Hata ayıklama bilgilerinin görüntülenmesini değiştiren tuşlar.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.toggle-search.name": "Lookup Anything",
+    "icon.toggle-search.desc": "Toggle Lookup Anything Search"
 }

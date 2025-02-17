@@ -64,14 +64,20 @@
     /****
     ** Audio
     ****/
-    "config.tractor-sounds.name": "Ses efektleri",
+    "config.tractor-sounds.name": "Motor Sesleri",
     "config.tractor-sounds.tooltip": "Traktörü sürerken hangi ses efektlerinin çalınacağı. Kaydı yeniden yükleyene kadar değişiklikler tam olarak etkili olmayabilir. Varsayılan {{defaultValue}}.",
     "config.tractor-sounds.value.None": "ses yok",
     "config.tractor-sounds.value.Horse": "at sesleri",
     "config.tractor-sounds.value.Tractor": "traktör sesleri",
 
-    "config.tractor-volume.name": "Ses Efekti Ses Seviyesi",
+    "config.tractor-volume.name": "Motor Sesi Ses Seviyesi",
     "config.tractor-volume.tooltip": "Ses efektlerinin ses seviyesi. Varsayılan: {{defaultValue}}%.",
+
+    "config.tool-use-sounds-limit.name": "Kullanılan Araçların Sesleri",
+    "config.tool-use-sounds-limit.tooltip": "Traktör birden çok alana kullanılan araçlardan hangisinin sesinin oynatılacağı. Varsayılan seçenek: '{{defaultOption}}'. '{{unlimitedOption}}' seçeneği büyük alanlarda hatalara sebep olabilir.",
+    "config.tool-use-sounds-limit.value.Default": "Varsayılan",
+    "config.tool-use-sounds-limit.value.OncePerTick": "Uygulanan ilk kare",
+    "config.tool-use-sounds-limit.value.Unlimited": "Tüm sesleri oynat (tavsiye edilmez)",
 
 
     /****
@@ -239,5 +245,13 @@
     "config.slingshot.tooltip": "Sapanın imlece doğru ateşlenip ateşlenmeyeceği. (Bu, çok güçlüdür ve traktör aletinin hızı nedeniyle açgözlü bir şekilde cephane tüketecektir.)",
 
     "config.custom-tool-names.name": "Özel Alet Adları",
-    "config.custom-tool-names.tooltip": "Traktörü sürerken etkinleştirilecek özel öğeler/aletler. Öğeler indirilirken, her bir çevreleyen karoda araçlar kullanılacaktır. Halihazırda desteklenen bir şey belirtirseniz (balta gibi), bu, kullanımındaki tüm sınırlamaları geçersiz kılar. 'Balta' veya 'Büyük Bomba' gibi tam dahili adı (çevrilmiş görünen adı değil) belirtmelisiniz. Birden çok değeri virgülle ayırın."
+    "config.custom-tool-names.tooltip": "Traktörü sürerken etkinleştirilecek özel öğeler/aletler. Öğeler indirilirken, her bir çevreleyen karoda araçlar kullanılacaktır. Halihazırda desteklenen bir şey belirtirseniz (balta gibi), bu, kullanımındaki tüm sınırlamaları geçersiz kılar. 'Balta' veya 'Büyük Bomba' gibi tam dahili adı (çevrilmiş görünen adı değil) belirtmelisiniz. Birden çok değeri virgülle ayırın.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.summon-tractor.name": "Tractor Mod",
+    "icon.summon-tractor.desc": "Summon Tractor"
 }

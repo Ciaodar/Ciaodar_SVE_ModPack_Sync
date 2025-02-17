@@ -64,14 +64,21 @@
     /****
     ** Audio
     ****/
-    "config.tractor-sounds.name": "音效",
+    "config.tractor-sounds.name": "引擎音效",
     "config.tractor-sounds.tooltip": "驾驶拖拉机时播放的音效。在重新加载存档之前，更改可能不会完全生效。默认{{defaultValue}}。",
     "config.tractor-sounds.value.None": "无",
     "config.tractor-sounds.value.Horse": "马蹄",
     "config.tractor-sounds.value.Tractor": "拖拉机",
 
-    "config.tractor-volume.name": "音效大小",
+    "config.tractor-volume.name": "引擎音效大小",
     "config.tractor-volume.tooltip": "拖拉机声音效果的大小。默认值：{{defaultValue}}%。",
+
+    // TODO
+    "config.tool-use-sounds-limit.name": "Tool Use Sounds",
+    "config.tool-use-sounds-limit.tooltip": "When applying a tool to many tiles around the tractor, which tool sounds should be played. The default option is '{{defaultOption}}'. Note that '{{unlimitedOption}}' may cause errors with larger ranges.",
+    "config.tool-use-sounds-limit.value.Default": "default",
+    "config.tool-use-sounds-limit.value.OncePerTick": "first tile applied",
+    "config.tool-use-sounds-limit.value.Unlimited": "play every sound (not recommended)",
 
 
     /****
@@ -239,5 +246,12 @@
     "config.slingshot.tooltip": "是否能够发射弹弓。（由于拖拉机的攻速，基本上开了就无敌了，但是会消耗大量弹药）",
 
     "config.custom-tool-names.name": "自定义工具名称",
-    "config.custom-tool-names.tooltip": "自定义的工具/物品。工具将被用于周围的每个方格；而物品将会被放置。如果指定了已经支持的东西，比如斧头，那么将会覆盖它的所有使用限制。你必须指定确切的内部名称（而不是翻译后的显示名称），比如'Axe'或'Mega Bomb'。多个值之间用逗号分隔。"
+    "config.custom-tool-names.tooltip": "自定义的工具/物品。工具将被用于周围的每个方格；而物品将会被放置。如果指定了已经支持的东西，比如斧头，那么将会覆盖它的所有使用限制。你必须指定确切的内部名称（而不是翻译后的显示名称），比如'Axe'或'Mega Bomb'。多个值之间用逗号分隔。",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    "icon.summon-tractor.name": "拖拉机",
+    "icon.summon-tractor.desc": "任意地点召唤拖拉机"
 }

@@ -4,7 +4,7 @@
     *********/
     // language info
     "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
-    "generic.line-wrap-on": "",     // characters after which we can line-wrap text if needed, even if there's no space
+    "generic.line-wrap-on": "", // characters after which we can line-wrap text if needed, even if there's no space
 
     // date names
     "generic.now": "ora",
@@ -61,6 +61,10 @@
     "friendship-status.divorced": "Divorziati",
     "friendship-status.kicked-out": "Cacciato via",
 
+    // custom content (shows which mod added an item, NPC, etc)
+    "added-by-mod": "Aggiunto dalla mod",
+    "added-by-mod.summary": "{{modName}}",
+
     /*********
     ** Data translations
     *********/
@@ -112,10 +116,14 @@
     "location.forest.island-tip": "fiume nella foresta (punta Sud dell'isola maggiore)",
     "location.forest.lake": "laghetto nella foresta",
     "location.forest.river": "fiume nella foresta",
+    "location.HarveyRoom": "stanza di Harvey",
+    "location.LeoTreeHouse": "casa sull'albero",
+    "location.SandyHouse": "oasi",
+    "location.SebastianRoom": "stanza di Sebastian",
     "location.submarine": "sottomarino",
     "location.town.northmost-bridge": "paese (ponte Nord)",
     "location.undergroundMine": "miniera",
-    "location.undergroundMine.level": "miniera livello {{level}}",
+    "location.undergroundMine.level": "livello {{level}} della miniera",
     "location.witchSwamp": "palude della strega",
 
     "location.caldera": "Caldera dell'Isola Zenzero",
@@ -188,6 +196,7 @@
     // labels
     "building.animals": "Animali",
     "building.construction": "Costruzione",
+    "building.construction-costs": "Costi di costruzione",
     "building.feed-trough": "Trogolo per il cibo",
     "building.horse": "Cavallo",
     "building.horse-location": "Posizione cavallo",
@@ -299,6 +308,8 @@
     "crop.summary.drops-X-to-Y": "ne facadere da {{min}} a {{max}} ({{percent}}% di probabilità in più di raccolto extra)",
     "crop.summary.harvest-once": "raccogli dopo {{daysToFirstHarvest}} giorni",
     "crop.summary.harvest-multi": "raccogli dopo {{daysToFirstHarvest}} giorni, e successivamente ogni {{daysToNextHarvests}} giorni",
+    "crop.summary.farming-xp": "conferisce +{{amount}} XP agricoltura per raccolto",
+    "crop.summary.foraging-xp": "conferisce +{{amount}} XP foraggiamento per raccolto",
     "crop.summary.seasons": "cresce in {{seasons}}",
     "crop.summary.sells-for": "vendibile a {{price}}",
     "crop.harvest.too-late": "sei troppo avanti nella stagione attuale per la prossima raccolta (finirebbe il {{date}})",
@@ -308,7 +319,6 @@
     ** Item > generic lookups
     *********/
     // labels
-    "item.custom-item": "Oggetto personalizzato",
     "item.contents": "Contenuti",
     "item.loves-this": "Lo adora",
     "item.likes-this": "Piace a",
@@ -327,17 +337,17 @@
     "item.produces-dye": "Produce tinta",
 
     // values
-    "item.custom-item.summary": "aggiunto da {{modName}}",
     "item.contents.placed": "{{name}} piazzato",
     "item.contents.ready": "{{name}} pronto",
     "item.contents.partial": "{{name}} fra {{time}}",
     "item.undiscovered-gift-taste": "{{count}} abitanti non rivelati",
     "item.undiscovered-gift-taste-appended": ", e {{count}} abitanti non rivelati",
     "item.needed-for.community-center": "centro sociale ({{bundles}})",
-    "item.needed-for.full-shipment": "l'achievement 'spedizione completa' (consegnane uno)",
-    "item.needed-for.polyculture": "l'achievement 'policoltura' (consegnane ancora {{count}})",
+    "item.needed-for.full-shipment": "l'achievement 'spedizione completa' (spediscine uno)",
+    "item.needed-for.monoculture": "l'achievement 'monocoltura' (spediscine ancora {{count}})",
+    "item.needed-for.polyculture": "l'achievement 'policoltura' (spediscine ancora {{count}})",
     "item.needed-for.full-collection": "l'achievement 'collezione completa' (donane ancora uno al museo)",
-    "item.needed-for.gourmet-chef": "l'achievement 'chef da gourmet' (cucina {{recipes}})",
+    "item.needed-for.gourmet-chef": "l'achievement 'chef stellato' (cucina {{recipes}})",
     "item.needed-for.craft-master": "l'achievement 'maestro della fabbricazione' (crea {{recipes}})",
     "item.needed-for.quests": "missioni attuali ({{quests}})",
     "item.unknown-recipes": "{{count}} ricette sconosciute",
@@ -394,7 +404,8 @@
 
     // values
     "item.fish-spawn-rules.min-fishing-level": "livello minimo di pesca: {{level}}",
-    "item.fish-spawn-rules.not-caught-yet": "Non ancora pescato (si può pescare solo una volta)",
+    "item.fish-spawn-rules.not-caught-yet": "non ancora pescato (si può pescare solo una volta)",
+    "item.fish-spawn-rules.extended-family-quest-active": "la missione \"Famiglia Estesa\" è attiva",
     "item.fish-spawn-rules.locations": "luogo: {{locations}}",
     "item.fish-spawn-rules.locations-by-season.label": "luoghi:",
     "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
@@ -487,15 +498,19 @@
     "npc.neutral-gifts": "Regali neutrali",
     "npc.dislikes-gifts": "Regali che non piacciono",
     "npc.hates-gifts": "Regali che odia",
+    "npc.schedule": "Programma di oggi",
 
     // values
     "npc.can-romance.married": "Siete sposati! <", // < turns into a heart
     "npc.can-romance.housemate": "Siete coinquilini!",
     "npc.friendship.not-met": "Non vi siete ancora incontrati.",
     "npc.friendship.need-bouquet": "ha bisogno di un bouquet per avanzare",
-    "npc.friendship.need-points": "prossimo fra {{count}} pti",
+    "npc.friendship.need-points": "prossimo fra {{count}} p.ti",
     "npc.undiscovered-gift-taste": "{{count}} oggetti non rivelati",
     "npc.unowned-gift-taste": "{{count}} oggetti non posseduti",
+    "npc.schedule.current-position": "Attualmente si trova presso {{locationName}} ({{x}}, {{y}}).",
+    "npc.schedule.no-entries": "Nessun programma caricato.",
+    "npc.schedule.entry": "{{time}}: cammina verso {{locationName}} ({{x}}, {{y}}).",
 
 
     /*********
@@ -723,6 +738,8 @@
     "config.tile-lookups.desc": "Se includere o meno le piastrelle della mappa come target di ricerca.",
     "config.data-mining-fields.name": "Mostra i campi di data mining",
     "config.data-mining-fields.desc": "Scegli se mostrare i dati grezzi utili per i data miner (come campi separati in fondo ai risultati delle ricerche). Si tratta di una funzione avanzata non destinata alla maggior parte dei giocatori.",
+    "config.show-invalid-recipes.name": "Mostra ricette non valide",
+    "config.show-invalid-recipes.desc": "Scegli se mostrare o meno le ricette che richiedono o producono articoli rotti.",
     "config.target-redirection.name": "Reindirizzamento del target",
     "config.target-redirection.desc": "In alcuni casi il gioco genera un'entità temporanea per rappresentarne un'altra. Ad esempio, Abigail nelle miniere è in realtà un PNG temporaneo con il nome di 'AbigailMine', quindi cercarla lì non mostrerà le informazioni reali di Abigail. Con questa opzione attivata, Lookup Anything cercherà invece l'Abigail originale.",
     "config.scroll-amount.name": "Quantità di scorrimento",
@@ -745,5 +762,12 @@
     "config.page-down.name": "Pagina giù",
     "config.page-down.desc": "I tasti che fanno scorrere i contenuti lunghi di una pagina intera verso il basso.",
     "config.toggle-debug.name": "Attiva debug",
-    "config.toggle-debug.desc": "I tasti che attivano la visualizzazione delle informazioni di debug."
+    "config.toggle-debug.desc": "I tasti che attivano la visualizzazione delle informazioni di debug.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    "icon.toggle-search.name": "Lookup Anything",
+    "icon.toggle-search.desc": "Attiva/disattiva ricerca di Lookup Anything"
 }
