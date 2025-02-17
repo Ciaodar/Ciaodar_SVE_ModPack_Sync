@@ -161,7 +161,7 @@
                               "MapProperties",
                               "Warp"
                          ],
-                         "Value": "60 23 Custom_WTDR_GhostTown 1 35 60 24 Custom_WTDR_GhostTown 1 35 60 25 Custom_WTDR_GhostTown 1 35 60 26 Custom_WTDR_GhostTown 1 35 60 27 Custom_WTDR_GhostTown 1 35 60 28 Custom_WTDR_GhostTown 1 35 60 29 Custom_WTDR_GhostTown 1 35",
+                         "Value": "60 23 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35 60 24 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35 60 25 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35 60 26 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35 60 27 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35 60 28 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35 60 29 Tarniyar.CP.WalkToDesert_Ghost_Town 1 35",
                          "Delimiter": " "
                     }
                ]
@@ -324,6 +324,24 @@
                     "Height": 3
                }
           },
+		  //Forager's Nooks and Crannies Secret Woods Compatibility Patch
+           {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "FromFile": "Assets/Maps/MapPatches/WoodsFaerieForageSVEPatch.tmx",
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 13,
+                "Height": 10
+            },
+            "PatchMode": "Replace",
+            "When": 
+            {
+                "HasMod: |contains=Wildflour.AtelierGoods": true,
+            },
+            "Priority": "Early",
+          },
           { //Patches purple star icon to down arrow for sign usage
                "Action": "EditImage",
                "Target": "LooseSprites/font_bold",
@@ -338,6 +356,33 @@
                     "LocationName": "Farm, Custom_BlueMoonVineyard, Backwoods, Forest, BusStop, Custom_GrampletonSuburbsTrainStation, Custom_GrampletonSuburbs"
                },
                "Update": "OnLocationChange"
+          },
+		  {
+            //Add events to the blocklist so they won't show up
+            //in the "Available Events" menu
+            //left-hand side is the event id, right side doesnt matter
+            "Action": "EditData",
+            "Target": "Mods/shekurika.EventLookup/blocklist",
+            "Entries": {
+                "100000000000": "T",
+            }
+          },
+		  
+		  //Adds 2 extra museum spaces if Walk To Desert is installed
+		  {
+               "Action": "EditMap",
+               "Target": "Maps/ArchaeologyHouse",
+               "FromFile": "Assets/Maps/MapPatches/ArchaeologyHouse_MoreSpace.tbin",
+               "When": {
+                    "HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+					"HasMod |contains=RaffieJohn.ExtraSpace": false,
+               },
+               "ToArea": {
+                    "X": 43,
+                    "Y": 13,
+                    "Width": 4,
+                    "Height": 3
+               }
           },
      ]
 }

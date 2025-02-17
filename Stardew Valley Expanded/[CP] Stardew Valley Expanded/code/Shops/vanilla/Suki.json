@@ -127,8 +127,41 @@
                     "StackModifierMode": "Stack",
                     "QualityModifierMode": "Stack",
                   },
+				  "FlashShifter.StardewValleyExpandedCP_ScarlettPortrait":{
+                    "Price": 30000,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": "PLAYER_HEARTS Current Scarlett 14",
+                    "Id": "(F)FlashShifter.StardewValleyExpandedCP_ScarlettPortrait",
+                    "ItemId": "(F)FlashShifter.StardewValleyExpandedCP_ScarlettPortrait",
+                    "IsRecipe": false,
+                    "StackModifierMode": "Stack",
+                    "QualityModifierMode": "Stack",
+                  },
             },
             
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_FestivalOfIce_TravelingMerchant",
+                "Items"
+            ],
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar": {
+                    "Id": "FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar",
+                    "Price": 12000,
+					"IsRecipe": true,
+                },
+            },
         },
     ]
 }
