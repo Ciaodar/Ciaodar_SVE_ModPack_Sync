@@ -6,7 +6,7 @@
   "RemoveLandExpansionPond": "false",
   "GrassCropField": "false",
   "HeavyDebris": "false",
-  "LargerBridgeToGrandpasShed": "false",
+  "LargerBridgeToGrandpasShed": "true",
   "LargerGreenhouse": "true",
   "RemoveGreenhouseObjects": "false"
 }

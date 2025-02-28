@@ -22,7 +22,7 @@
       "CutTreeStumps": true,
       "ClearTreeSeeds": false,
       "ClearTreeSaplings": true,
-      "CutGrownTrees": true,
+      "CutGrownTrees": false,
       "CutTappedTrees": false,
       "CutBushes": true,
       "CutGiantCrops": false,
