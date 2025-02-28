@@ -3,7 +3,7 @@
   "version": 1,
   "deploymentMethod": "hardlink_activator",
   "gameId": "stardewvalley",
-  "deploymentTime": 1739809493953,
+  "deploymentTime": 1740777707380,
   "stagingPath": "C:\\Users\\Ciaodar\\AppData\\Roaming\\Vortex\\stardewvalley\\mods",
   "targetPath": "c:\\program files (x86)\\steam\\steamapps\\common\\Stardew Valley\\Mods",
   "files": [
@@ -716,12 +716,6 @@
       "time": 1714219456000
     },
     {
-      "relPath": "Grandpa's Farm\\[FTM] Grandpa's Farm\\content.json",
-      "source": "Grandpa's Farm-3753-1-15-8-1734906577",
-      "target": "",
-      "time": 1730707166000
-    },
-    {
       "relPath": "Grandpa's Farm\\[CP] Grandpa's Farm\\assets\\Tilesheets\\z_GrandpasFarm_mist_blank.png",
       "source": "Grandpa's Farm-3753-1-15-8-1734906577",
       "target": "",
@@ -1224,6 +1218,114 @@
       "source": "Visible FIsh 0.4.2-8897-0-4-2-1716408510",
       "target": "",
       "time": 1716404324000
+    },
+    {
+      "relPath": "Automate\\manifest.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\default.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\Automate.dll",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\assets\\data.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\es.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\fr.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\hu.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\it.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\ko.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\pt.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\th.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\tr.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\ru.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\uk.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\vi.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\zh.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Automate\\i18n\\de.json",
+      "source": "Automate 2.3.3-1063-2-3-3-1738970448",
+      "target": "",
+      "time": 1738941562000
+    },
+    {
+      "relPath": "Grandpa's Farm\\[FTM] Grandpa's Farm\\content.json",
+      "source": "Grandpa's Farm-3753-1-15-8-1734906577",
+      "target": "",
+      "time": 1740777231000
     }
   ]
 }
