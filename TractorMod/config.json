@@ -106,7 +106,7 @@
   "Controls": {
     "SummonTractor": "None",
     "DismissTractor": "None",
-    "HoldToActivate": "None"
+    "HoldToActivate": "LeftAlt"
   },
   "CustomAttachments": [],
   "InvincibleOnTractor": true
