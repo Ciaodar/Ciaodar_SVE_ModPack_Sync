@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Festival",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {
     "Farm Meteorite": 1
   },
@@ -7,66 +7,11 @@
   "SavedObjects": [
     {
       "MapName": "Custom_FarmCliff",
-      "Name": "Stone",
-      "Tile": "8, 7",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FarmCliff",
-      "Name": "Iron",
-      "Tile": "10, 11",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FarmCliff",
-      "Name": "Gold",
-      "Tile": "10, 7",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FarmCliff",
-      "Name": "Copper",
-      "Tile": "7, 9",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FarmCliff",
-      "Name": "Stone",
-      "Tile": "10, 9",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FarmCliff",
       "Name": "Iron",
       "Tile": "3, 9",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -77,6 +22,50 @@
       "Tile": "5, 6",
       "Type": "Ore",
       "ID": 6,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FarmCliff",
+      "Name": "Iron",
+      "Tile": "7, 6",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FarmCliff",
+      "Name": "Amethyst",
+      "Tile": "3, 8",
+      "Type": "Ore",
+      "ID": 8,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FarmCliff",
+      "Name": "Iron",
+      "Tile": "7, 8",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FarmCliff",
+      "Name": "Jade",
+      "Tile": "9, 6",
+      "Type": "Ore",
+      "ID": 6,
       "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -84,8 +73,21 @@
     },
     {
       "MapName": "Custom_GrandpasGrove",
+      "Name": "20",
+      "Tile": "26, 14",
+      "Type": "Forage",
+      "ID": "20",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_GrandpasGrove",
       "Name": "16",
-      "Tile": "18, 18",
+      "Tile": "28, 39",
       "Type": "Forage",
       "ID": "16",
       "DaysUntilExpire": 1,
@@ -98,9 +100,22 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": "16",
-      "Tile": "14, 13",
+      "Tile": "30, 15",
       "Type": "Forage",
       "ID": "16",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_GrandpasGrove",
+      "Name": "20",
+      "Tile": "27, 17",
+      "Type": "Forage",
+      "ID": "20",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": {
@@ -111,61 +126,9 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": "16",
-      "Tile": "32, 37",
+      "Tile": "36, 33",
       "Type": "Forage",
       "ID": "16",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "object"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_GrandpasGrove",
-      "Name": "20",
-      "Tile": "16, 32",
-      "Type": "Forage",
-      "ID": "20",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "object"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_GrandpasGrove",
-      "Name": "20",
-      "Tile": "34, 28",
-      "Type": "Forage",
-      "ID": "20",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "object"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_GrandpasGrove",
-      "Name": "20",
-      "Tile": "38, 29",
-      "Type": "Forage",
-      "ID": "20",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "object"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_GrandpasGrove",
-      "Name": "20",
-      "Tile": "27, 16",
-      "Type": "Forage",
-      "ID": "20",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": {

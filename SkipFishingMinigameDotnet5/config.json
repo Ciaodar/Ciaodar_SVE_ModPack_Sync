@@ -1,7 +1,7 @@
 {
   "IsModEnabled": true,
   "IsActionButtonToggleAutoHook": false,
-  "IsAutoHook": false,
+  "IsAutoHook": true,
   "IsRemoveAutoHook": false,
   "IsIgnoreTreasureChests": false,
   "MinimumCatchesRequired": 0,
