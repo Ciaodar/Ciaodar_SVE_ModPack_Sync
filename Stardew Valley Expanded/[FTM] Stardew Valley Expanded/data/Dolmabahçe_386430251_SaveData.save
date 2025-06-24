@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {
     "Galdoran Vendor Schedule Chest Spawn": 1,
     "Beach forage area 3": 1,
@@ -47,7 +47,7 @@
       "Tile": "35, 25",
       "Type": "Container",
       "ID": null,
-      "DaysUntilExpire": 8898,
+      "DaysUntilExpire": 8891,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "Chest",
@@ -61,64 +61,87 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "27, 20",
-      "Type": "Ore",
-      "ID": 2,
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "51, 23",
+      "Type": "Forage",
+      "ID": "376",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "object"
+      },
       "MonType": null
     },
     {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "14, 17",
-      "Type": "Ore",
-      "ID": 2,
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "47, 27",
+      "Type": "Forage",
+      "ID": "376",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "object"
+      },
       "MonType": null
     },
     {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "5, 26",
-      "Type": "Ore",
-      "ID": 2,
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "57, 21",
+      "Type": "Forage",
+      "ID": "593",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "object"
+      },
       "MonType": null
     },
     {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "18, 26",
-      "Type": "Ore",
-      "ID": 2,
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "50, 29",
+      "Type": "Forage",
+      "ID": "593",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "object"
+      },
       "MonType": null
     },
     {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "23, 20",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 1,
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "49, 24",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "52, 25",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
       "MonType": null
     },
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Stone",
-      "Tile": "5, 22",
+      "Tile": "24, 31",
       "Type": "Ore",
       "ID": 668,
       "DaysUntilExpire": 1,
@@ -128,32 +151,150 @@
     },
     {
       "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "25, 22",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "22, 23",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "17, 23",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "5, 23",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "23, 23",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "11, 25",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "454",
+      "Tile": "11, 7",
+      "Type": "Forage",
+      "ID": "454",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "281",
+      "Tile": "8, 5",
+      "Type": "Forage",
+      "ID": "281",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "55, 21",
+      "Type": "Forage",
+      "ID": "593",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "54, 22",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "30, 17",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "19, 34",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
       "Name": "Stone",
-      "Tile": "13, 34",
+      "Tile": "16, 22",
       "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "31, 18",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "10, 27",
-      "Type": "Ore",
-      "ID": 2,
+      "ID": 670,
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -173,62 +314,7 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Diamond",
-      "Tile": "22, 20",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "13, 25",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "20, 28",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "12, 21",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "26, 29",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "17, 20",
+      "Tile": "27, 23",
       "Type": "Ore",
       "ID": 2,
       "DaysUntilExpire": 2,
@@ -239,10 +325,10 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Stone",
-      "Tile": "21, 20",
+      "Tile": "21, 23",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -250,7 +336,96 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Diamond",
-      "Tile": "8, 28",
+      "Tile": "5, 27",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "454",
+      "Tile": "13, 6",
+      "Type": "Forage",
+      "ID": "454",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "422",
+      "Tile": "14, 7",
+      "Type": "Forage",
+      "ID": "422",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "420",
+      "Tile": "3, 7",
+      "Type": "Forage",
+      "ID": "420",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "50, 23",
+      "Type": "Forage",
+      "ID": "593",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "46, 28",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "56, 22",
+      "Type": "Forage",
+      "ID": "593",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "25, 26",
       "Type": "Ore",
       "ID": 2,
       "DaysUntilExpire": 3,
@@ -261,7 +436,7 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Diamond",
-      "Tile": "27, 26",
+      "Tile": "21, 18",
       "Type": "Ore",
       "ID": 2,
       "DaysUntilExpire": 3,
@@ -272,29 +447,7 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Diamond",
-      "Tile": "13, 20",
-      "Type": "Ore",
-      "ID": 2,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Stone",
-      "Tile": "11, 21",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DiamondCavern",
-      "Name": "Diamond",
-      "Tile": "19, 31",
+      "Tile": "11, 18",
       "Type": "Ore",
       "ID": 2,
       "DaysUntilExpire": 3,
@@ -305,7 +458,7 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Diamond",
-      "Tile": "19, 29",
+      "Tile": "14, 25",
       "Type": "Ore",
       "ID": 2,
       "DaysUntilExpire": 3,
@@ -316,7 +469,29 @@
     {
       "MapName": "Custom_DiamondCavern",
       "Name": "Diamond",
-      "Tile": "16, 20",
+      "Tile": "15, 23",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "21, 33",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "19, 25",
       "Type": "Ore",
       "ID": 2,
       "DaysUntilExpire": 3,
@@ -327,7 +502,7 @@
     {
       "MapName": "Custom_SpriteSpringCave",
       "Name": "454",
-      "Tile": "4, 7",
+      "Tile": "6, 7",
       "Type": "Forage",
       "ID": "454",
       "DaysUntilExpire": 3,
@@ -339,10 +514,10 @@
     },
     {
       "MapName": "Custom_SpriteSpringCave",
-      "Name": "422",
-      "Tile": "11, 6",
+      "Name": "420",
+      "Tile": "9, 6",
       "Type": "Forage",
-      "ID": "422",
+      "ID": "420",
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": {
@@ -352,23 +527,10 @@
     },
     {
       "MapName": "Custom_SpriteSpringCave",
-      "Name": "281",
-      "Tile": "8, 8",
+      "Name": "420",
+      "Tile": "10, 7",
       "Type": "Forage",
-      "ID": "281",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "object"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpringCave",
-      "Name": "422",
-      "Tile": "15, 7",
-      "Type": "Forage",
-      "ID": "422",
+      "ID": "420",
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": {
@@ -379,7 +541,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "593",
-      "Tile": "51, 22",
+      "Tile": "55, 22",
       "Type": "Forage",
       "ID": "593",
       "DaysUntilExpire": 6,
@@ -392,7 +554,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "54, 19",
+      "Tile": "53, 23",
       "Type": "Forage",
       "ID": "376",
       "DaysUntilExpire": 6,
@@ -405,20 +567,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "593",
-      "Tile": "48, 22",
-      "Type": "Forage",
-      "ID": "593",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "object"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpring2",
-      "Name": "593",
-      "Tile": "50, 24",
+      "Tile": "51, 27",
       "Type": "Forage",
       "ID": "593",
       "DaysUntilExpire": 6,
