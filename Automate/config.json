@@ -4,7 +4,9 @@
   "Controls": {
     "ToggleOverlay": "U"
   },
-  "ConnectorNames": [],
+  "ConnectorNames": [
+    "Weathered Floor"
+  ],
   "JunimoHutBehaviorForGems": "AutoDetect",
   "JunimoHutBehaviorForFertilizer": "AutoDetect",
   "JunimoHutBehaviorForSeeds": "AutoDetect",
